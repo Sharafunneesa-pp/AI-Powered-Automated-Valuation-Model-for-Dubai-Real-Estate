@@ -1,0 +1,11 @@
+prefix=/Users/admin/Desktop/machine test/smart bricks/Dubai Real Estate AVM System/realestate
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/admin/Desktop/machine test/smart bricks/Dubai Real Estate AVM System/realestate/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
